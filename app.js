@@ -1,5 +1,3 @@
-var appString = homeString;
-
 function homeState() {
   document.getElementById("pageContent").innerHTML = homeString
 }
