@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vanilla js spa</title>
+  <link rel="stylesheet" href='https://use.fontawesome.com/releases/v5.2.0/css/all.css'>
+
+  <style>
+    body {
+      background-image: url(peeking-cat.jpg);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .topLinks {
+      display: flex;
+      border-bottom: solid 1px;
+    }
+
+    .topLinks p {
+      font-weight: 500;
+      text-align: center;
+      width: 25vw;
+    }
+
+    .topLinks p:hover {
+      background-color: #e3e3e3;
+    }
+
+    div {
+      align-items: center;
+      text-align: center;
+    }
+
+    .title {
+      margin-top: 12vh;
+      font-weight: 600;
+      font-size: xx-large;
+    }
+
+    .subtitle {
+      font-weight: 500;
+      font-size: x-large;
+    }
+  </style>
+</head>
+
+<body>
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="home.js"></script>
+  <script type="text/javascript" src="about.js"></script>
+  <script type="text/javascript" src="blog.js"></script>
+  <script type="text/javascript" src="contact.js"></script>
+
+  <div class="topLinks">
+    <p onclick="homeState()">HOME</p>
+    <p onclick="aboutState()">ABOUT</p>
+    <p onclick="blogState()">BLOG</p>
+    <p onclick="contactState()">CONTACT</p>
+  </div>
+
+  <div id="pageContent">
+    <script>
+      document.getElementById("pageContent").innerHTML = homeString
+    </script>
+  </div>
+</body>
+
+</html>
