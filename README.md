@@ -4,8 +4,4 @@ An SPA (Single Page Application) personal site written in vanilla JavaScript, HT
 
 To see it running on Netlify, [click here](https://vanilla-js-spa.netlify.app/)
 
-The original folder was created for [this blog post](https://www.center-the-div.com/2020/06/vanilla-javascript-spa-template.html).
-
-The refactored folder was created for [this blog post](https://www.center-the-div.com/2020/06/norman-addresses-scalability-concerns.html).
-
-This repo is [surpirsingly controversial](https://www.center-the-div.com/2020/06/trigger-warning-for-dom-manipulation-in.html).
+Although this website requires JavaScript, the payload is extremely small and [only 0.2% of browser users have JavaScript disabled](https://www.center-the-div.com/2020/06/only-02-of-browser-users-have.html)
