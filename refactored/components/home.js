@@ -9,6 +9,7 @@ var homeString = `
 
 <div>
   <h1 class="title">Norman Cat</h1>
+  <br />
   <h3 class="subtitle">Kitteh Developer</h3>
   <br />
   <a href="https://github.com/sammi-turner/Vanilla-JavaScript-Personal-Site-Template">
@@ -17,6 +18,7 @@ var homeString = `
   <a href="https://github.com/sammi-turner/Vanilla-JavaScript-Personal-Site-Template">
     <i class="fab fa-linkedin"></i>
   </a>
+  <br/><br />
   <p class="subtitle">
     "Don't just sit on
     <br />
@@ -28,6 +30,8 @@ var homeString = `
     <br />
     your paws."
     <br /><br />
+    -Some cat
+    <br />
   </p>
 </div>
 `

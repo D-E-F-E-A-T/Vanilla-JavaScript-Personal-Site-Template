@@ -1,6 +1,9 @@
 var contactString = `
 <style>
-  * {box-sizing: border-box;}
+  * {
+    box-sizing: border-box;
+    font-family: monospace;
+  }
 
   input[type=text], select, textarea {
     width: 100%;
@@ -27,6 +30,8 @@ var contactString = `
   }
 
   .container {
+    margin: auto;
+    max-width: 60vw;
     border-radius: 0.5rem;
     background-color: #f2f2f2;
     padding: 2rem;

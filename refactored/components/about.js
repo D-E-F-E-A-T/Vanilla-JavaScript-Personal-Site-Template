@@ -1,7 +1,7 @@
 var aboutString = `
 <style>
   img {
-    margin-top: 10vh;
+    margin-top: 2vh;
     padding: 1rem;
   }
 </style>
